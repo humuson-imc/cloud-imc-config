@@ -15,7 +15,7 @@ imc:
 ---
 
 spring:
-  profile: dev
+  profiles: dev
   
 imc:
   relay:
@@ -24,7 +24,7 @@ imc:
 ---
 
 spring:
-  profile: local
+  profiles: local
   
 imc:
   relay:
