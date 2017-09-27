@@ -8,4 +8,24 @@
 # Store     : Store 서버 실행
 # All       : 전체 모듈 실행 (Authorize, Message, Report, Store)
 ################################################################################################################
-imc.relay.run-mode=All
+imc:
+  relay:
+    run-mode: All
+
+---
+
+spring:
+  profile: dev
+  
+imc:
+  relay:
+    run-mode: All
+
+---
+
+spring:
+  profile: dev
+  
+imc:
+  relay:
+    run-mode: All
