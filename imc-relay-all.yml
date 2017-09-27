@@ -28,4 +28,4 @@ spring:
   
 imc:
   relay:
-    run-mode: All
+    run-mode: Message
