@@ -23,7 +23,11 @@ imc:
                 key-serializer: org.apache.kafka.common.serialization.StringSerializer
                 value-serializer: org.apache.kafka.common.serialization.StringSerializer
 spring:
+    # redis 설정
     redis:
+        # redis 서버 (여러개일 경우, 콤마로 분리)
         host: 211.48.18.171
+        # redis 접속 암호
         password: humuson0722
+        # redis port
         port: 6379
