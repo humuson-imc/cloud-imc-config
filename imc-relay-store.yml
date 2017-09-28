@@ -1,1 +1,43 @@
+# IMC dabase 정보
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        hikari:
+            auto-commit: false
+            connection-timeout: 60000
+            maximum-pool-size: 10
+        password: rlawlghks2$!
+        url: jdbc:mysql://127.0.0.1:3306/imc?autoReconnect=true&useSSL=false&rewriteBatchedStatements=true
+        username: root
 
+---
+
+spring:
+    profiles: dev
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        hikari:
+            auto-commit: false
+            connection-timeout: 60000
+            maximum-pool-size: 10
+        password: amail0722
+        url: jdbc:mysql://119.207.76.94:3306/imc?autoReconnect=true&rewriteBatchedStatements=true
+        username: root
+
+---
+
+spring:
+    profiles: local
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        hikari:
+            auto-commit: false
+            connection-timeout: 60000
+            maximum-pool-size: 10
+        password: rlawlghks2$!
+        url: jdbc:mysql://127.0.0.1:3306/imc?autoReconnect=true&useSSL=false&rewriteBatchedStatements=true
+        username: root
