@@ -14,8 +14,6 @@ spring:
 
 spring:
     profiles: dev
-
-spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
         hikari:
@@ -30,8 +28,6 @@ spring:
 
 spring:
     profiles: local
-
-spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
         hikari:
