@@ -7,7 +7,7 @@ imc:
             bootstrap-servers: 211.48.18.171:9092
             # Kafka consumer 공통 설정
             # 각 설정은 아래 사이트를 통해 확인할 수 있다.
-            # https://kafka.apache.org/documentation/#producerconfigs
+            # https://kafka.apache.org/documentation/#consumerconfigs
             consumer:
                 # key deserializer class
                 key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
@@ -22,3 +22,8 @@ imc:
                 compression-type: gzip
                 key-serializer: org.apache.kafka.common.serialization.StringSerializer
                 value-serializer: org.apache.kafka.common.serialization.StringSerializer
+spring:
+    redis:
+        host: 211.48.18.171
+        password: humuson0722
+        port: 6379
