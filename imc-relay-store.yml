@@ -1,4 +1,7 @@
 # IMC store 설정
+server:
+    # Server HTTP port
+    port: 32104
 spring:
     # Database 설정
     datasource:
