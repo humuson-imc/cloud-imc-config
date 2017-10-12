@@ -1,4 +1,9 @@
 # IMC store 설정
+imc:
+    store:
+        scheduled:
+            load-client-info:
+                cron: 0 */10 * * * *
 server:
     # Server HTTP port
     port: 32104
