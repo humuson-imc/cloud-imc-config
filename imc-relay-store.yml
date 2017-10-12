@@ -2,8 +2,8 @@
 imc:
     store:
         scheduled:
-            load-client-info:
-                cron: 0 */10 * * * *
+            cron:
+                load-client-info: 0 */10 * * * *
 server:
     # Server HTTP port
     port: 32104
