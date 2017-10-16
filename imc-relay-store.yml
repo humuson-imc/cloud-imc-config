@@ -15,8 +15,8 @@ spring:
             auto-commit: false
             connection-timeout: 60000
             maximum-pool-size: 10
-        password: rlawlghks2$!
-        url: jdbc:mysql://127.0.0.1:3306/imc?autoReconnect=true&useSSL=false&rewriteBatchedStatements=true
+        password: humuson0722
+        url: jdbc:mysql://211.48.18.233:3306/imc?autoReconnect=true&useSSL=false&rewriteBatchedStatements=true
         username: root
 
 ---
