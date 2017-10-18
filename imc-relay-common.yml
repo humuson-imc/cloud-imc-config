@@ -1,6 +1,6 @@
 # IMC relay 공통 설정
 imc:
-    relay:
+    common:
         # Kafka 설정. 기타 설정은 개별 프로세스에서 별도로 설정해서 사용한다.
         kafka:
             # Kafka 서버 (여러개일 경우, 콤마로 분리)
