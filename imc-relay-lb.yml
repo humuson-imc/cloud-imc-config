@@ -1,0 +1,26 @@
+# IMC loadbalancer 설정
+imc:
+    lb:
+        cron:
+            load-client-info: 0 */10 * * * *
+
+---
+
+spring:
+    profiles: dev
+
+imc:
+    lb:
+        cron:
+            load-client-info: 0 */10 * * * *
+
+---
+
+spring:
+    profiles: local
+
+imc:
+    lb:
+        cron:
+            load-client-info: 0 */10 * * * *
+            
