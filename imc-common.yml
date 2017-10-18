@@ -24,60 +24,48 @@ imc:
                 value-serializer: org.apache.kafka.common.serialization.StringSerializer
         # topic 정보 설정
         topic:
-            # 알림톡 topic
-            at:
-                # 수신 topic
-                recv:
-                    - recv-at-01
-                    - recv-at-02
-                # 발송 topic (발송 그룹을 list of map 형태로 추가하여 사용한다)
-                send:
-                # 기본 발송 topic
+            # 알림톡 수신 list
+            at-recv-list:
+                - recv-at-01
+                - recv-at-02
+            # 알림톡 발송 map (발송 그룹을 list of map 형태로 추가하여 사용한다)
+            at-send_map:
                 default:
                     - send-at-01
                     - send-at-02
                     - send-at-03
                     - send-at-04
                     - send-at-05
-            # 친구톡 topic
-            ft:
-                # 수신 topic
-                recv:
-                    - recv-ft-01
-                    - recv-ft-02
-                # 발송 topic (발송 그룹을 list of map 형태로 추가하여 사용한다)
-                send:
-                # 기본 발송 topic
+            # 친구톡 수신 list
+            ft-recv-list:
+                - recv-ft-01
+                - recv-ft-02
+            # 친구톡 발송 map (발송 그룹을 list of map 형태로 추가하여 사용한다)
+            ft-send_map:
                 default:
                     - send-ft-01
                     - send-ft-02
                     - send-ft-03
                     - send-ft-04
                     - send-ft-05
-            # sms mt topic
-            smt:
-                # 수신 topic
-                recv:
-                    - recv-smt-01
-                    - recv-smt-02
-                # 발송 topic (발송 그룹을 list of map 형태로 추가하여 사용한다)
-                send:
-                # 기본 발송 topic
+            # sms mt 수신 list
+            smt-recv-list:
+                - recv-smt-01
+                - recv-smt-02
+            # sms mt 발송 map (발송 그룹을 list of map 형태로 추가하여 사용한다)
+            smt-send_map:
                 default:
                     - send-smt-01
                     - send-smt-02
                     - send-smt-03
                     - send-smt-04
                     - send-smt-05
-            # lms mt topic
-            lmt:
-                # 수신 topic
-                recv:
-                    - recv-lmt-01
-                    - recv-lmt-02
-                # 발송 topic (발송 그룹을 list of map 형태로 추가하여 사용한다)
-                send:
-                # 기본 발송 topic
+            # lms mt 수신 list
+            lmt-recv-list:
+                - recv-smt-01
+                - recv-smt-02
+            # lms mt 발송 map (발송 그룹을 list of map 형태로 추가하여 사용한다)
+            lmt-send_map:
                 default:
                     - send-lmt-01
                     - send-lmt-02
