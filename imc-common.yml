@@ -26,9 +26,8 @@ imc:
         topic:
             # 알림톡 수신 list
             at-recv-list:
-                -
-                    - recv-at-01
-                    - recv-at-02
+                - recv-at-01
+                - recv-at-02
             # 알림톡 발송 map (발송 그룹을 map of list 형태로 추가하여 사용한다)
             at-send_map:
                 default:
