@@ -10,7 +10,7 @@ imc:
         # Store     : Store 서버 실행
         # All       : 전체 모듈 실행 (Authorize, Message, Report, Store)
         ########################################################################################################
-        run-mode: Message
+        run-mode: All
 
 ---
 
