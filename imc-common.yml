@@ -62,8 +62,8 @@ imc:
                     - send-smt-05
             # lms mt 수신 list
             lmt-recv-list:
-                - recv-smt-01
-                - recv-smt-02
+                - recv-lmt-01
+                - recv-lmt-02
             # lms mt 발송 map (발송 그룹을 list of map 형태로 추가하여 사용한다)
             lmt-send_map:
                 default:
