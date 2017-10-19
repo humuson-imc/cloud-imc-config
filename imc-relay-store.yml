@@ -4,6 +4,7 @@ imc:
         cron:
             load-client-info: 0 */10 * * * *
             load-at-template-info: 30 */10 * * * *
+            load-send-group-info: 0 */30 * * * *
 server:
     # Server HTTP port
     port: 32104
