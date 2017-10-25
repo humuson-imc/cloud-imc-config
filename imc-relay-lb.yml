@@ -3,7 +3,7 @@ imc:
     lb:
         cron:
             load-client-info: 10 */10 * * * *
-            load-at-send-group-info: 40 */10 * * *
+            load-at-send-profile-info: 40 */10 * * *
             load-at-template-info: 40 */10 * * *
             load-send-group-info: 10 */10 * * * *
 
@@ -16,7 +16,7 @@ imc:
     lb:
         cron:
             load-client-info: 10 */10 * * * *
-            load-at-send-group-info: 40 */10 * * *
+            load-at-send-profile-info: 40 */10 * * *
             load-at-template-info: 40 */10 * * *
             load-send-group-info: 10 */10 * * * *
 
@@ -29,7 +29,7 @@ imc:
     lb:
         cron:
             load-client-info: 10 */10 * * * *
-            load-at-send-group-info: 40 */10 * * *
+            load-at-send-profile-info: 40 */10 * * *
             load-at-template-info: 40 */10 * * *
             load-send-group-info: 10 */10 * * * *
             
