@@ -2,7 +2,9 @@
 imc:
     lb:
         cron:
-            load-client-info: 0 */10 * * * *
+            load-client-info: 10 */10 * * * *
+            load-at-send-group-info: 40 */10 * * *
+            load-at-template-info: 40 */10 * * *
             load-send-group-info: 10 */10 * * * *
 
 ---
@@ -13,7 +15,9 @@ spring:
 imc:
     lb:
         cron:
-            load-client-info: 0 */10 * * * *
+            load-client-info: 10 */10 * * * *
+            load-at-send-group-info: 40 */10 * * *
+            load-at-template-info: 40 */10 * * *
             load-send-group-info: 10 */10 * * * *
 
 ---
@@ -24,6 +28,8 @@ spring:
 imc:
     lb:
         cron:
-            load-client-info: 0 */10 * * * *
+            load-client-info: 10 */10 * * * *
+            load-at-send-group-info: 40 */10 * * *
+            load-at-template-info: 40 */10 * * *
             load-send-group-info: 10 */10 * * * *
             
