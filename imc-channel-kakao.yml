@@ -7,7 +7,7 @@ imc:
                 # 알림톡 실행 여부
                 run: true
                 # 알림톡 발송 topic list
-                topic-list: 
+                topics: 
                     - send-at-01
                     - send-at-02
                     - send-at-03
@@ -18,7 +18,7 @@ imc:
                 # 친구톡 실행 여부
                 run: true
                 # 친구톡 발송 topic list
-                topic-list:
+                topics:
                     - send-ft-01
                     - send-ft-02
                     - send-ft-03
