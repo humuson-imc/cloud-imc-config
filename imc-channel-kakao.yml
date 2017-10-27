@@ -4,6 +4,8 @@ imc:
         kakao:
             # 시뮬레이션 발송 모드
             simulation: true
+            # url connection read-time 설정 (sec)
+            read-timeout: 30
             # 알림톡 설정
             at:
                 # 알림톡 실행 여부
