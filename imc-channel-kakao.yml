@@ -1,4 +1,22 @@
 # IMC channel-kakao 설정
+################################################################################################################
+# Kakao 비즈메시지 base-url 설정
+#
+# 휴머스온 운영
+# 알림톡		: https://bzm-api.kakao.com/v1/990238b1219048cf5f2281a2f1ea5cb173a13ad6/sendMessage
+# 친구톡		: https://bzm-api.kakao.com/v1/990238b1219048cf5f2281a2f1ea5cb173a13ad6/sendMessage
+# 친구톡 이미지 : https://bzm-center.kakao.com/api/v1/990238b1219048cf5f2281a2f1ea5cb173a13ad6/ft/upload_image
+#
+# 휴머스온 테스트
+# 알림톡		: https://dev-bzm-api.kakao.com/v1/990238b1219048cf5f2281a2f1ea5cb173a13ad6/sendMessage
+# 친구톡		: https://dev-bzm-api.kakao.com/v1/990238b1219048cf5f2281a2f1ea5cb173a13ad6/sendMessage
+# 친구톡 이미지 : https://dev-bzm-center.kakao.com/990238b1219048cf5f2281a2f1ea5cb173a13ad6/ft/upload_image
+#
+# 카카오 테스트
+# 알림톡		: https://dev-bzm-api.kakao.com/v1/d856a846049ed4872e2b4664983539c2a6c7444f/sendMessage
+# 친구톡		: https://dev-bzm-api.kakao.com/v1/d856a846049ed4872e2b4664983539c2a6c7444f/sendMessage
+# 친구톡 이미지 : https://dev-bzm-center.kakao.com/api/v1/d856a846049ed4872e2b4664983539c2a6c7444f/ft/upload_image
+################################################################################################################
 imc:
     channel:
         kakao:
@@ -10,6 +28,8 @@ imc:
             at:
                 # 알림톡 실행 여부
                 run: true
+                # base url 설정
+                base-url: https://dev-bzm-api.kakao.com/v1/d856a846049ed4872e2b4664983539c2a6c7444f/sendMessage
                 # 알림톡 발송 topic list
                 topics:
                     - send-at-01
@@ -21,6 +41,10 @@ imc:
             ft:
                 # 친구톡 실행 여부
                 run: true
+                # base url 설정
+                base-url: https://dev-bzm-api.kakao.com/v1/d856a846049ed4872e2b4664983539c2a6c7444f/sendMessage
+                # 이미지 url 설정
+                img-url: https://dev-bzm-center.kakao.com/api/v1/d856a846049ed4872e2b4664983539c2a6c7444f/ft/upload_image
                 # 친구톡 발송 topic list
                 topics:
                     - send-ft-01
