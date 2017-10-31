@@ -23,7 +23,7 @@ imc:
             # 시뮬레이션 발송 모드
             simulation: true
             # 시뮬레이션 delay time (ms)
-            simulation-delay: 25
+            simulation-delay-millis: 25
             # url connection read-time 설정 (sec)
             read-timeout: 30
             # 알림톡 설정
