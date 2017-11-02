@@ -34,11 +34,7 @@ imc:
                 base-url: https://dev-bzm-api.kakao.com/v1/d856a846049ed4872e2b4664983539c2a6c7444f/sendMessage
                 # 알림톡 발송 topic list
                 topics:
-                    - send-at-01
-                    - send-at-02
-                    - send-at-03
-                    - send-at-04
-                    - send-at-05
+                    - send-at
             # 친구톡 설정
             ft:
                 # 친구톡 실행 여부
@@ -86,7 +82,7 @@ spring:
             key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
             value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
         listener:
-            concurrency: 5
+            concurrency: 10
             ack-mode: MANUAL_IMMEDIATE
             poll-timeout: 3000
             batch: false
