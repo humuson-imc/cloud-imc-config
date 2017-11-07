@@ -31,7 +31,6 @@ imc:
             at-send-map:
                 # default 그룹
                 default:
-                    # - send-at-test
                     - send-at
             # 알림톡 리포트 list
             at-report-list:
