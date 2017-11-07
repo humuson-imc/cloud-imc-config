@@ -26,6 +26,10 @@ imc:
             simulation-delay-millis: 25
             # url connection read-time 설정 (sec)
             read-timeout: 30
+            # cron schedule 정보
+            cron:
+                load-client-info: 10 */10 * * * *
+                load-at-send-profile-info: 40 */10 * * * *
             # 알림톡 설정
             at:
                 # 알림톡 실행 여부
