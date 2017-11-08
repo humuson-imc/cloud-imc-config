@@ -28,3 +28,8 @@ endpoints:
 
 logging:
     config: logback-spring.xml
+
+management:
+    security:
+        # enable security
+        enabled: true
