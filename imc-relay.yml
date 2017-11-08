@@ -33,3 +33,7 @@ management:
     security:
         # enable security
         enabled: true
+
+server:
+    # Server HTTP port
+    port: 32104
