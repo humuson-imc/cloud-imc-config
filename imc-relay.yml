@@ -36,7 +36,7 @@ management:
 
 server:
     # Server HTTP port
-    port: 32104
+    port: 42104
 
 spring:
     # kafka 설정
@@ -67,6 +67,8 @@ spring:
             ack-mode: MANUAL_IMMEDIATE
             poll-timeout: 3000
             batch: false
+    main:
+        web-environment: true
 
 ---
 
