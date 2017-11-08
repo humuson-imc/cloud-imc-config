@@ -69,6 +69,7 @@ spring:
             batch: false
 spring:
     main:
+        # tomcat enabled
         web-environment: true
 
 ---
