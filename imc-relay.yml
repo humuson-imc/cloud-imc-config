@@ -68,10 +68,6 @@ spring:
             poll-timeout: 3000
             batch: false
 
-    main:
-        # tomcat enabled
-        web-environment: true
-
 ---
 
 spring:
