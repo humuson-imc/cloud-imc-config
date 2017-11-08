@@ -1,17 +1,8 @@
 # IMC Relay 설정
-########################################################################################################
-# 서버 실행 모드 설정
-#
-# RUN-MODE  : [Authorize, Message, Report, Store, All]
-# Authorize : 인증서버 실행
-# Message   : Message 서버 실행
-# Report    : Report 서버 실행
-# Store     : Store 서버 실행
-# All       : 전체 모듈 실행 (Authorize, Message, Report, Store)
-########################################################################################################
 imc:
     relay:
         # 실행 모드
+        # RUN-MODE  : [Authorize, Message, Report, Store, All]
         run-mode: All
         # 인증서버 bind 포트
         authorize-port: 42000
