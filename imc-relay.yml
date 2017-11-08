@@ -37,3 +37,22 @@ management:
 server:
     # Server HTTP port
     port: 32104
+
+
+---
+
+spring:
+    profiles: dev
+  
+imc:
+    relay:
+        run-mode: All
+
+---
+
+spring:
+    profiles: local
+  
+imc:
+    relay:
+        run-mode: Message
