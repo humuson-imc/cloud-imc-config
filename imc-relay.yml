@@ -1,5 +1,4 @@
 # IMC Relay 설정
-
 imc:
     relay:
         # 실행 모드 : [Authorize, Message, Report, Store, All]
