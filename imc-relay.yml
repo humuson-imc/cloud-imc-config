@@ -20,3 +20,8 @@ imc:
         packet-print-dump: true
         filter-logging-remote-address-list:
             - 000.000.000.000
+
+endpoints:
+    shutdown:
+        sensitive: false
+        enabled: true
