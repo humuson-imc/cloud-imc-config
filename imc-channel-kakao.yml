@@ -37,10 +37,8 @@ imc:
                 # base url 설정
                 base-url: https://dev-bzm-api.kakao.com/v1/d856a846049ed4872e2b4664983539c2a6c7444f/sendMessage
                 # 알림톡 발송 topic list
-                send-topics:
+                topic-list:
                     - send-at
-                report-topics:
-                    - report-at
             # 친구톡 설정
             ft:
                 # 친구톡 실행 여부
@@ -50,10 +48,8 @@ imc:
                 # 이미지 url 설정
                 img-url: https://dev-bzm-center.kakao.com/api/v1/d856a846049ed4872e2b4664983539c2a6c7444f/ft/upload_image
                 # 친구톡 발송 topic list
-                send-topics:
+                topic-list:
                     - send-ft
-                report-topics:
-                    - report-ft
 
 endpoints:
     shutdown:
