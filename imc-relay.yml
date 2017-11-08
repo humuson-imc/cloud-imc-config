@@ -25,3 +25,6 @@ endpoints:
     shutdown:
         sensitive: false
         enabled: true
+
+logging:
+    config: logback-spring.xml
