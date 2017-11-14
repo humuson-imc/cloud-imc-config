@@ -14,7 +14,7 @@ logging:
     config: logback-spring.xml
 server:
     # Server HTTP port
-    port: 42104
+    port: 42105
 spring:
     # Database 설정
     datasource:
