@@ -25,7 +25,7 @@ spring:
             key-serializer: org.apache.kafka.common.serialization.StringSerializer
             value-serializer: org.apache.kafka.common.serialization.StringSerializer
         consumer:
-            group-id: channel-kakao-consumer-group
+            group-id: channel-ib-consumer-group
             enable-auto-commit: false
             max-poll-records: 500
             key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
