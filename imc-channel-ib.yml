@@ -1,5 +1,29 @@
 # IMC channel-ib 설정
 
+imc:
+    channel:
+        ib:
+            # 시뮬레이션 발송 모드
+            simulation: true
+            # 시뮬레이션 delay time (ms)
+            simulation-delay-millis: 25
+            # 접속정보
+            mt-host: embp.ibizplus.co.kr
+            mt-port: 9214
+            mt-id: imc_test01
+            mt-password: LPWX3A2YD8XOJ110CG06
+            # send line 실행 여부
+            send-run: true
+            # report line 실행 여부
+            report-run: true
+            # tcp dump 출력 여부
+            show-packet-dump: true
+            # heartbeat interval 시간 설정
+            heartbeat-interval: 60
+            # cron schedule 정보
+            cron:
+                load-client-info: 10 */10 * * * *
+
 endpoints:
     shutdown:
         sensitive: false
