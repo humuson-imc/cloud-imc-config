@@ -1,0 +1,9 @@
+# IMC channel-ib 설정
+
+endpoints:
+    shutdown:
+        sensitive: false
+        enabled: true
+
+logging:
+    config: logback-spring.xml
