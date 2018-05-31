@@ -30,6 +30,7 @@ eureka:
     leaseRenewalIntervalInSeconds: 3
   client:
     region: default
+    registerWithEureka: true
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
