@@ -10,6 +10,7 @@ spring:
     # Comma-separated list of active profiles
     active: default
   jpa:
+    database: h2
     generate-ddl: true
 
 server:
