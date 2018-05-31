@@ -33,3 +33,4 @@ eureka:
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+      defauktZone: ${vcap.services.discovery-service.credentials.uri:119.207.76.90:8761/eureka/
