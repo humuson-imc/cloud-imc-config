@@ -1,9 +1,7 @@
 logging:
   level:
-    com:
-      netflix:
-        eureka: off
-        discovery: off
+    com.netflix.eureka: off
+    com.netflix.discovery: off
 
 spring:
   profiles:
