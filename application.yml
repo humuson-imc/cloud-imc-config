@@ -21,7 +21,7 @@ endpoints:
 
 eureka:
   instance:
-    hostname: ${vcap.application.uris[0]:119.207.76.90}
+    hostname: ${vcap.application.uris[0]:localhost}
 #    nonSecurePort: 80
     prefer-ip-address: true
     metadataMap:
