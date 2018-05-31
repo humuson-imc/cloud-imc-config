@@ -1,0 +1,3 @@
+server:
+  # Server HTTP port
+  port: ${PORT:8761}
