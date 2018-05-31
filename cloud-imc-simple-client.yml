@@ -1,3 +1,8 @@
 server:
   port: ${PORT:9988}
+  
+management:
+  security:
+    enabled: false
+
 message: "hello world!! 2"
