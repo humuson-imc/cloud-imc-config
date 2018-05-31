@@ -9,4 +9,8 @@ spring:
   security:
     enabled: false
 
+security:
+  basic:
+    enabled: false
+
 message: "hello world!! 2"
