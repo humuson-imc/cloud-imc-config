@@ -18,6 +18,8 @@ server:
 endpoints:
   shutdown:
     enabled: true
+  info:
+    id: ${spring.application.name}:${server.port}
 
 eureka:
   instance:
