@@ -1,8 +1,21 @@
+logging:
+  level:
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
+
 spring:
   profiles:
     # Comma-separated list of active profiles
     active: default
+  jpa:
+    generate-ddl: true
 
 server:
   # Server HTTP port
   port: ${PORT:0}
+
+endpoints:
+  shutdown:
+    enabled: true
