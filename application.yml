@@ -10,6 +10,12 @@ spring:
   jpa:
     database: h2
     generate-ddl: true
+  sleuth:
+    sampler:
+      percentage=1.0
+    log:
+      json:
+        enabled: true
 
 server:
   # Server HTTP port
