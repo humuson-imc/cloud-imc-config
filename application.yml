@@ -1,3 +1,8 @@
 spring:
   profiles:
+    # Comma-separated list of active profiles
     active: default
+
+server:
+  # Server HTTP port
+  port: ${PORT:0}
