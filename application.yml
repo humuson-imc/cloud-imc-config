@@ -1,7 +1,7 @@
-#logging:
-#  level:
-#    com.netflix.eureka: 'off'
-#    com.netflix.discovery: 'off'
+logging:
+  level:
+    com.netflix.eureka: 'off'
+    com.netflix.discovery: 'off'
 
 spring:
   profiles:
