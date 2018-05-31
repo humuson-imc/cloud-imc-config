@@ -5,4 +5,8 @@ management:
   security:
     enabled: false
 
+spring:
+  security:
+    enabled: false
+
 message: "hello world!! 2"
