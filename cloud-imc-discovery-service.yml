@@ -1,3 +1,10 @@
 server:
   # Server HTTP port
   port: ${PORT:8761}
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  server:
+    enable-self-preservation: true
