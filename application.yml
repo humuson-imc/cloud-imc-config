@@ -21,7 +21,7 @@ endpoints:
 
 eureka:
   instance:
-    hostname: ${vcap.application.uris[0]:localhost}
+    hostname: ${vcap.application.uris[0]:119.207.76.90}
 #    nonSecurePort: 80
     prefer-ip-address: true
     metadataMap:
@@ -30,7 +30,6 @@ eureka:
     leaseRenewalIntervalInSeconds: 3
   client:
     region: default
-    registerWithEureka: true
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
