@@ -5,4 +5,4 @@ management:
   security:
     enabled: false
 
-message: Hello Cloud-IMC
+message: Hello Cloud-IMC !!
