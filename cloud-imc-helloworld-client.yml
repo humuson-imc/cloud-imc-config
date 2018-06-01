@@ -3,6 +3,10 @@ server:
 info:
   component: "Zuul Proxy"
 
+management:
+  security:
+    enabled: false
+
 endpoints:
   restart:
     enabled: true
